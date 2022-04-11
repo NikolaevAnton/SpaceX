@@ -9,9 +9,18 @@ import UIKit
 
 class DefaultViewController: UIViewController {
 
+    @IBOutlet var viewOutlet: UIImageView!
+    @IBOutlet var pageOutlet: UIPageControl!
+    
+    var currentPage = 0 // Номер текущей страницы
+    var numberOfPages = 0 // Количество страниц
+    var currentRoketImage: UIImage?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        pageOutlet.numberOfPages = numberOfPages
+        pageOutlet.currentPage = currentPage
+        viewOutlet.image = currentRoketImage
     }
 
 
