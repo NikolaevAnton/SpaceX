@@ -11,6 +11,7 @@ class DefaultViewController: UIViewController {
 
     @IBOutlet var viewOutlet: UIImageView!
     @IBOutlet var pageOutlet: UIPageControl!
+    @IBOutlet var roketNameLabel: UILabel!
     
     var currentPage = 0 // Номер текущей страницы
     var numberOfPages = 0 // Количество страниц
@@ -22,6 +23,14 @@ class DefaultViewController: UIViewController {
         pageOutlet.currentPage = currentPage
         viewOutlet.image = currentRoketImage
     }
+    
+    @IBAction func goToSettingsViewButton(_ sender: Any) {
+    }
+    
+    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
+        
+    }
+    
 
 
 }

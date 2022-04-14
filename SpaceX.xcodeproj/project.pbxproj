@@ -14,6 +14,7 @@
 		4E9F90EB2802C5BD004EE120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9F90EA2802C5BD004EE120 /* Assets.xcassets */; };
 		4E9F90EE2802C5BD004EE120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9F90EC2802C5BD004EE120 /* LaunchScreen.storyboard */; };
 		4E9F90FF28041412004EE120 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F90FE28041412004EE120 /* PageViewController.swift */; };
+		4EB2681428088C1F009C7C22 /* ModalSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2681328088C1F009C7C22 /* ModalSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4E9F90ED2802C5BD004EE120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E9F90EF2802C5BD004EE120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E9F90FE28041412004EE120 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		4EB2681328088C1F009C7C22 /* ModalSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		4E9F90FC2802C80F004EE120 /* ModalSettings */ = {
 			isa = PBXGroup;
 			children = (
+				4EB2681328088C1F009C7C22 /* ModalSettingsViewController.swift */,
 			);
 			path = ModalSettings;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				4E9F90E62802C5BC004EE120 /* DefaultViewController.swift in Sources */,
 				4E9F90E22802C5BC004EE120 /* AppDelegate.swift in Sources */,
 				4E9F90E42802C5BC004EE120 /* SceneDelegate.swift in Sources */,
+				4EB2681428088C1F009C7C22 /* ModalSettingsViewController.swift in Sources */,
 				4E9F90FF28041412004EE120 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
